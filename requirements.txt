@@ -1,0 +1,3 @@
+# O script principal usa apenas a biblioteca padrao do Python.
+# Opcional para exploracao local do CSV:
+pandas>=2.0

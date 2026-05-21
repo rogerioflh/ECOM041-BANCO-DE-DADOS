@@ -1,0 +1,20 @@
+services:
+  influxdb:
+    image: influxdb:2.7
+    container_name: ecom041-influxdb
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb-data:/var/lib/influxdb2
+      - influxdb-config:/etc/influxdb2
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: admin
+      DOCKER_INFLUXDB_INIT_PASSWORD: adminadmin123
+      DOCKER_INFLUXDB_INIT_ORG: ecom041
+      DOCKER_INFLUXDB_INIT_BUCKET: iot_telemetry
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: ecom041-token
+
+volumes:
+  influxdb-data:
+  influxdb-config:
