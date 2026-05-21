@@ -82,7 +82,7 @@ $env:INFLUX_TOKEN = "ecom041-token"
 
 # Bibliography:
 - Technical Summary of the Dataset: https://www.overleaf.com/read/jjjdhnkrcxhf#aa1944
-- Presentation: 
+- Presentation: https://notebooklm.google.com/notebook/5188c348-4104-4b40-970b-6bf1bb55f3a9/artifact/4dc85a94-80eb-4491-9188-864d4c39fe35?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_
 - Dataset: https://www.kaggle.com/datasets/garystafford/environmental-sensor-data-132k/data
 
 # Authors:
